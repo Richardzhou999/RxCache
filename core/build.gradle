@@ -1,0 +1,23 @@
+
+plugins {
+    id 'java-library'
+    id 'idea'
+//    id "net.ltgt.apt"
+    id 'maven'
+}
+
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    annotationProcessor "com.google.dagger:dagger-compiler:2.14.1"
+    api "com.google.dagger:dagger:2.28.3"
+    api "org.glassfish:javax.annotation:10.0-b28"
+    implementation(project(":api"))
+    api 'io.reactivex.rxjava2:rxjava:2.2.21'
+    api 'io.reactivex.rxjava3:rxjava:3.1.5'
+    testImplementation "junit:junit:4.12"
+}

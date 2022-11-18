@@ -1,0 +1,6 @@
+rootProject.name = "RxCache"
+include ':app'
+include ':runtime'
+include ':core'
+include ':api'
+include ':gson'
