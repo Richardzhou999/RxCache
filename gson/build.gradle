@@ -1,5 +1,8 @@
 plugins {
     id 'java-library'
+    id 'idea'
+//    id "net.ltgt.apt"
+    id 'maven'
 }
 
 java {
