@@ -1,13 +1,7 @@
 package com.github.Richard.RxCache;
-
-
-
-
-import com.github.richard.api.JolyglotGenerics;
 import com.github.richard.gson.GsonSpeaker;
-import com.github.richard.rx_cache2.RxCache2;
-import com.github.richard.rx_cache3.RxCache3;
-
+import com.github.richard.runtime.rx_cache2.RxCache2;
+import com.github.richard.runtime.rx_cache3.RxCache3;
 
 /**
  * @Author Charlie

@@ -33,19 +33,13 @@ public class MainActivity extends AppCompatActivity  {
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe( new DefaultObserver<BasicResponse>() {
                             @Override
-                            public void onNext(BasicResponse basicResponse) {
-
-                            }
+                            public void onNext(BasicResponse basicResponse) {}
 
                             @Override
-                            public void onError(Throwable e) {
-
-                            }
+                            public void onError(Throwable e) {}
 
                             @Override
-                            public void onComplete() {
-
-                            }
+                            public void onComplete() {}
                         });
 
             }

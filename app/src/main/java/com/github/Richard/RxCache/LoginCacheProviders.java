@@ -1,6 +1,7 @@
 package com.github.Richard.RxCache;
 
-import com.github.richard.rx_cache2.internal.LifeCache;
+
+import com.github.richard.runtime.rx_cache2.internal.LifeCache;
 
 import java.util.concurrent.TimeUnit;
 
